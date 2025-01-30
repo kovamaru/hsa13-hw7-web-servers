@@ -87,9 +87,9 @@ Nginx Fine Tuning. Configure nginx that will cache only images, that were reques
         
         ✅ All tests completed!
 
-### Special thanks to the cats 
+### Special thanks to the models
 
-A huge shoutout to the cats for their exceptional help in testing the caching system, making sure everything works smoothly. And of course, for letting me use their images!
+A huge shoutout to the cats for their assistance in testing and for providing me with the test materials.
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://raw.githubusercontent.com/kovamaru/hsa13-hw7-web-servers/main/simple-backend/src/main/resources/images/image1.jpg" alt="Test image 1" width="300" />
