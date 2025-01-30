@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  micronaut:
+    image: marynakovalova/hsa13-hw7-simple-backend:latest
+    container_name: micronaut
+    ports:
+      - "8080:8080"
+
+  nginx:
+    image: marynakovalova/hsa13-hw7-custom-nginx-purge:latest
+    container_name: nginx
+    depends_on:
+      - micronaut
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./cache:/var/cache/nginx
