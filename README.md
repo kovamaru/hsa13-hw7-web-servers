@@ -62,6 +62,7 @@ Nginx Fine Tuning. Configure nginx that will cache only images, that were reques
         🧹 Final cleanup purge for http://localhost/images/image1...
         <html><head><title>Successful purge</title></head><body bgcolor="white"><center><h1>Successful purge</h1><p>Key : localhost/images/image1</p></center></body></html>
         ✅ Success
+
         ✅ Test for http://localhost/images/image1 completed!
         --------------------------------------
         🖼 Testing cache for http://localhost/images/image2
@@ -80,6 +81,7 @@ Nginx Fine Tuning. Configure nginx that will cache only images, that were reques
         🧹 Final cleanup purge for http://localhost/images/image2...
         <html><head><title>Successful purge</title></head><body bgcolor="white"><center><h1>Successful purge</h1><p>Key : localhost/images/image2</p></center></body></html>
         ✅ Success
+
         ✅ Test for http://localhost/images/image2 completed!
         --------------------------------------
         

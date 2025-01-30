@@ -29,7 +29,7 @@ for IMAGE in "${ENDPOINTS[@]}"; do
     echo -e "\n🧹 Final cleanup purge for $IMAGE_URL... "
     curl -s -X PURGE "$PURGE_URL" | grep "<title>Successful purge</title>" && echo "✅ Success" || echo "❌ Failed"
 
-    echo "✅ Test for $IMAGE_URL completed!"
+    echo -e "\n✅ Test for $IMAGE_URL completed!"
     echo "--------------------------------------"
 done
 
